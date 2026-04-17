@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.presentation\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|solutionrelative:controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966D3136-DFE7-E57D-27C4-2207F6A9F67D}|..\\SkateSpotter.Data\\SkateSpotter.Data.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.data\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966D3136-DFE7-E57D-27C4-2207F6A9F67D}|..\\SkateSpotter.Data\\SkateSpotter.Data.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966D3136-DFE7-E57D-27C4-2207F6A9F67D}|..\\SkateSpotter.Data\\SkateSpotter.Data.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.data\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966D3136-DFE7-E57D-27C4-2207F6A9F67D}|..\\SkateSpotter.Data\\SkateSpotter.Data.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.data\\models\\spot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966D3136-DFE7-E57D-27C4-2207F6A9F67D}|..\\SkateSpotter.Data\\SkateSpotter.Data.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.data\\repositories\\spotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966D3136-DFE7-E57D-27C4-2207F6A9F67D}|..\\SkateSpotter.Data\\SkateSpotter.Data.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966D3136-DFE7-E57D-27C4-2207F6A9F67D}|..\\SkateSpotter.Data\\SkateSpotter.Data.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.data\\interfaces\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966D3136-DFE7-E57D-27C4-2207F6A9F67D}|..\\SkateSpotter.Data\\SkateSpotter.Data.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966D3136-DFE7-E57D-27C4-2207F6A9F67D}|..\\SkateSpotter.Data\\SkateSpotter.Data.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.data\\interfaces\\ispotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.presentation\\views\\review\\byspot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|solutionrelative:views\\review\\byspot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.presentation\\views\\spot\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|solutionrelative:views\\spot\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.presentation\\views\\spot\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|solutionrelative:views\\spot\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|c:\\users\\rrmho\\documents\\school\\skatespotter\\skatespotter.presentation\\controllers\\spotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1162DAC9-A7B1-E899-4150-50B2B38BDAA6}|SkateSpotter.Presentation.csproj|solutionrelative:controllers\\spotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\SkateSpotter.Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\SkateSpotter.Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:37:58.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\SkateSpotter.Data\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "..\\SkateSpotter.Data\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:36:47.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\SkateSpotter.Data\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Models\\User.cs",
+              "RelativeToolTip": "..\\SkateSpotter.Data\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:34:25.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Views\\Spot\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Spot\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Views\\Spot\\Index.cshtml.cs",
+              "RelativeToolTip": "Views\\Spot\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:29:14.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BySpot.cshtml",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Views\\Review\\BySpot.cshtml",
+              "RelativeDocumentMoniker": "Views\\Review\\BySpot.cshtml",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Views\\Review\\BySpot.cshtml",
+              "RelativeToolTip": "Views\\Review\\BySpot.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-17T08:30:12.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:54:28.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "..\\SkateSpotter.Data\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Models\\Review.cs",
+              "RelativeToolTip": "..\\SkateSpotter.Data\\Models\\Review.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:49:42.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Interfaces\\IReviewRepository.cs",
+              "RelativeDocumentMoniker": "..\\SkateSpotter.Data\\Interfaces\\IReviewRepository.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Interfaces\\IReviewRepository.cs",
+              "RelativeToolTip": "..\\SkateSpotter.Data\\Interfaces\\IReviewRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:49:30.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Repositories\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "..\\SkateSpotter.Data\\Repositories\\ReviewRepository.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Repositories\\ReviewRepository.cs",
+              "RelativeToolTip": "..\\SkateSpotter.Data\\Repositories\\ReviewRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowC8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:49:03.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ISpotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Interfaces\\ISpotRepository.cs",
+              "RelativeDocumentMoniker": "..\\SkateSpotter.Data\\Interfaces\\ISpotRepository.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Interfaces\\ISpotRepository.cs",
+              "RelativeToolTip": "..\\SkateSpotter.Data\\Interfaces\\ISpotRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T20:38:07.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Spot.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Models\\Spot.cs",
+              "RelativeDocumentMoniker": "..\\SkateSpotter.Data\\Models\\Spot.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Models\\Spot.cs",
+              "RelativeToolTip": "..\\SkateSpotter.Data\\Models\\Spot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T20:37:34.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAD4vw0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T20:37:05.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T20:35:56.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Repositories\\SpotRepository.cs",
+              "RelativeDocumentMoniker": "..\\SkateSpotter.Data\\Repositories\\SpotRepository.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Data\\Repositories\\SpotRepository.cs",
+              "RelativeToolTip": "..\\SkateSpotter.Data\\Repositories\\SpotRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T20:33:13.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SpotController.cs",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Controllers\\SpotController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SpotController.cs",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Controllers\\SpotController.cs",
+              "RelativeToolTip": "Controllers\\SpotController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T20:32:02.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Views\\Spot\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Spot\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rrmho\\Documents\\School\\skatespotter\\SkateSpotter.Presentation\\Views\\Spot\\Index.cshtml",
+              "RelativeToolTip": "Views\\Spot\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-16T20:31:17.971Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

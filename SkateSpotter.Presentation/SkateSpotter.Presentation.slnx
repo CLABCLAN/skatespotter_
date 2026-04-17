@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../SkateSpotter.Data/SkateSpotter.Data.csproj" />
+  <Project Path="SkateSpotter.Presentation.csproj" />
+</Solution>

@@ -1,0 +1,12 @@
+﻿@model IEnumerable<SkateSpotter.Data.Models.Spot>
+
+<h1>Spots</h1>
+
+<ul>
+    @foreach (var spot in Model)
+    {
+        <li>@spot.Name</li>
+        <a href="/Review/BySpot/@spot.SpotId">Bekijk reviews</a>
+
+    }
+</ul>
