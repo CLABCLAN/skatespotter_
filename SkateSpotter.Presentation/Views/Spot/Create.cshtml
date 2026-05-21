@@ -1,0 +1,41 @@
+﻿@model SkateSpotter.Presentation.Models.SpotCreateViewModel
+
+@{
+    ViewData["Title"] = "Nieuw Spot";
+    bool vanKaart = Model.Latitude != 0 && Model.Longitude != 0;
+}
+
+<h1>Nieuw Spot aanmaken</h1>
+
+@if (vanKaart)
+{
+    <div class="alert alert-info">
+        📍 Locatie gekozen via de kaart
+    </div>
+}
+
+
+
+<div class="row">
+    <div class="col-md-5">
+        <form asp-action="Create" method="post">
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Naam</label>
+                <input asp-for="Name" class="form-control" placeholder="bijv. Vondelpark Ledge" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Latitude" class="form-label">Latitude</label>
+                <input asp-for="Latitude" class="form-control" readonly="@vanKaart" />
+                <span asp-validation-for="Latitude" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Longitude" class="form-label">Longitude</label>
+                <input asp-for="Longitude" class="form-control" readonly="@vanKaart" />
+                <span asp-validation-for="Longitude" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-success">Opslaan</button>
+            <a asp-action="Index" class="btn btn-secondary">Annuleren</a>
+        </form>
+    </div>
+</div>

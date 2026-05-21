@@ -1,25 +1,54 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SkateSpotter.Data.Interfaces;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using SkateSpotter.Logic.Interfaces;
+using SkateSpotter.Logic.Models;
+using SkateSpotter.Presentation.Models;
+using System.Security.Claims;
 
-public class ReviewController : Controller
+namespace SkateSpotter.Presentation.Controllers
 {
-    private readonly IReviewRepository _repo;
-
-    public ReviewController(IReviewRepository repo)
+    public class ReviewController : Controller
     {
-        _repo = repo;
-    }
+        private readonly IReviewService _reviewService;
 
-    public IActionResult Index()
-    {
-        var reviews = _repo.GetAll();
-        return View(reviews);
-    }
+        public ReviewController(IReviewService reviewService)
+        {
+            _reviewService = reviewService;
+        }
 
-    public IActionResult BySpot(int id)
-    {
-        var reviews = _repo.GetBySpotId(id);
-        return View(reviews);
-    }
+        [Authorize]
+        public IActionResult Create(int spotId)
+        {
+            return View(new ReviewCreateViewModel { SpotId = spotId });
+        }
 
+        [Authorize]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(ReviewCreateViewModel vm)
+        {
+            if (!ModelState.IsValid) return View(vm);
+
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+
+            var review = new Review
+            {
+                SpotId = vm.SpotId,
+                Rating = vm.Rating,
+                Comment = vm.Comment,
+                UserId = userId
+            };
+
+            try
+            {
+                _reviewService.Create(review);
+                return RedirectToAction("Detail", "Spot", new { id = vm.SpotId });
+            }
+            catch (ArgumentException ex)
+            {
+                ModelState.AddModelError("", ex.Message);
+                return View(vm);
+            }
+        }
+    }
 }

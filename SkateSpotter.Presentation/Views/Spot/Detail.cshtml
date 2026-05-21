@@ -1,0 +1,61 @@
+﻿@model SkateSpotter.Logic.Models.Spot
+
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="mb-3">
+    <a asp-action="Index" class="btn btn-secondary btn-sm">← Terug</a>
+</div>
+
+<h1>@Model.Name</h1>
+<p class="text-muted">📍 @Model.Latitude, @Model.Longitude</p>
+<p>👤 Aangemaakt door: <strong>@Model.CreatedByUsername</strong></p>
+<p>⭐ Gemiddelde rating: <strong>@Model.GemRating.ToString("0.0")</strong></p>
+
+<hr />
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h4>Reviews (@Model.Reviews.Count)</h4>
+    @if (User.Identity!.IsAuthenticated)
+    {
+        <a asp-controller="Review" asp-action="Create" asp-route-spotId="@Model.SpotId"
+               class="btn btn-sm btn-primary">
+            + Review schrijven
+        </a>
+    }
+    else
+    {
+        <a asp-controller="Account" asp-action="Login" class="btn btn-sm btn-outline-primary">
+            Log in om te reviewen
+        </a>
+    }
+</div>
+
+@if (!Model.Reviews.Any())
+{
+    <p class="text-muted">Nog geen reviews voor deze spot.</p>
+}
+else
+{
+    @foreach (var review in Model.Reviews)
+    {
+        <div class="card mb-2">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <strong>@review.Username</strong>
+                    <span>
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <span>@(i <= review.Rating ? "⭐" : "☆")</span>
+                        }
+                    </span>
+                </div>
+                @if (!string.IsNullOrEmpty(review.Comment))
+                {
+                    <p class="mb-0 mt-1">@review.Comment</p>
+                }
+            </div>
+        </div>
+    }
+}

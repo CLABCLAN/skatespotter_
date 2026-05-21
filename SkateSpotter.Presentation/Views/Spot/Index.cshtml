@@ -1,12 +1,101 @@
-﻿@model IEnumerable<SkateSpotter.Data.Models.Spot>
+﻿@model IEnumerable<SkateSpotter.Logic.Models.Spot>
 
-<h1>Spots</h1>
+@{
+    ViewData["Title"] = "Spots";
+}
 
-<ul>
-    @foreach (var spot in Model)
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Skate Spots</h1>
+    @if (User.Identity!.IsAuthenticated)
     {
-        <li>@spot.Name</li>
-        <a href="/Review/BySpot/@spot.SpotId">Bekijk reviews</a>
-
+        <a asp-action="Create" class="btn btn-primary">+ Nieuw Spot</a>
     }
-</ul>
+</div>
+
+<!-- Kaart -->
+<div id="map" style="height: 700px; border-radius: 8px;" class="mb-4"></div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        const map = L.map('map').setView([52.3676, 4.9041], 7);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        const isLoggedIn = @User.Identity!.IsAuthenticated.ToString().ToLower();
+
+        const spots = [
+        @foreach (var spot in Model)
+        {
+            <text>
+                {
+                id: @spot.SpotId,
+                name: "@spot.Name",
+                lat: @spot.Latitude.ToString(System.Globalization.CultureInfo.InvariantCulture),
+                lng: @spot.Longitude.ToString(System.Globalization.CultureInfo.InvariantCulture),
+                rating: "@spot.GemRating.ToString("0.0")",
+                reviews: @spot.Reviews.Count,
+                createdBy: "@spot.CreatedByUsername",
+                url: "@Url.Action("Detail", "Spot", new { id = spot.SpotId })"
+                },
+            </text>
+        }
+        ];
+
+        spots.forEach(spot => {
+        L.marker([spot.lat, spot.lng])
+        .addTo(map)
+        .bindPopup(`
+        <strong>${spot.name}</strong><br>
+        👤 ${spot.createdBy}<br>
+        ⭐ ${spot.rating} (${spot.reviews} reviews)<br>
+        <a href="${spot.url}">Bekijk spot →</a>
+        `);
+        });
+
+        let tempMarker = null;
+
+        map.on('click', function (e) {
+        if (!isLoggedIn) return;
+
+        const lat = e.latlng.lat.toFixed(6);
+        const lng = e.latlng.lng.toFixed(6);
+
+        if (tempMarker) map.removeLayer(tempMarker);
+
+        tempMarker = L.marker([lat, lng], {
+        icon: L.icon({
+        iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+        shadowSize: [41, 41]
+        })
+        }).addTo(map);
+
+        tempMarker.bindPopup(`
+        <strong>Spot toevoegen hier?</strong><br>
+        📍 ${lat}, ${lng}<br><br>
+        <a href="@Url.Action("Create", "Spot")?lat=${lat}&lng=${lng}"
+        class="btn btn-sm btn-primary">
+        ✅ Ja, voeg toe
+        </a>
+        <button onclick="removeTemp()" class="btn btn-sm btn-secondary">
+        ❌ Annuleer
+        </button>
+        `).openPopup();
+        });
+
+        function removeTemp() {
+        if (tempMarker) {
+        map.removeLayer(tempMarker);
+        tempMarker = null;
+        }
+        }
+    </script>
+}

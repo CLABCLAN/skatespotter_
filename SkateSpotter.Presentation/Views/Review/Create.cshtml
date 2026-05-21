@@ -1,0 +1,45 @@
+﻿@model SkateSpotter.Presentation.Models.ReviewCreateViewModel
+
+@{
+    ViewData["Title"] = "Review schrijven";
+}
+
+<h1>Review schrijven</h1>
+
+@if (!ViewData.ModelState.IsValid && ViewData.ModelState.ErrorCount > 0)
+{
+    <div class="alert alert-danger">
+        @Html.ValidationSummary(false)
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-5">
+        <form asp-action="Create" method="post">
+            <input type="hidden" asp-for="SpotId" />
+
+            <div class="mb-3">
+                <label asp-for="Rating" class="form-label">Rating (1-5)</label>
+                <select asp-for="Rating" class="form-select">
+                    <option value="">-- Kies rating --</option>
+                    @for (int i = 1; i <= 5; i++)
+                    {
+                        <option value="@i">@i ⭐</option>
+                    }
+                </select>
+                <span asp-validation-for="Rating" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Comment" class="form-label">Opmerking (optioneel)</label>
+                <textarea asp-for="Comment" class="form-control" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-success">Opslaan</button>
+            <a asp-controller="Spot" asp-action="Detail" asp-route-id="@Model.SpotId"
+                   class="btn btn-secondary">
+                Annuleren
+            </a>
+        </form>
+    </div>
+</div>

@@ -1,25 +1,54 @@
-using SkateSpotter.Data.Interfaces;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using SkateSpotter.Data.Repositories;
+using SkateSpotter.Logic.Interfaces;
+using SkateSpotter.Logic.Services;
 
-var builder = WebApplication.CreateBuilder(args);
+try
+{
+    var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews();
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")!;
 
-var connectionString = builder.Configuration.GetConnectionString("Default");
+    // Data
+    builder.Services.AddScoped<ISpotRepository>(_ => new SpotRepository(connectionString));
+    builder.Services.AddScoped<IReviewRepository>(_ => new ReviewRepository(connectionString));
+    builder.Services.AddScoped<IUserRepository>(_ => new UserRepository(connectionString));
 
-builder.Services.AddScoped<IReviewRepository>(sp =>
-    new ReviewRepository(connectionString));
+    // Logic
+    builder.Services.AddScoped<ISpotService, SpotService>();
+    builder.Services.AddScoped<IReviewService, ReviewService>();
 
-builder.Services.AddScoped<ISpotRepository>(sp =>
-    new SpotRepository(connectionString));
+    builder.Services.AddControllersWithViews();
 
-var app = builder.Build();
+    builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+        .AddCookie(options =>
+        {
+            options.LoginPath = "/Account/Login";
+            options.LogoutPath = "/Account/Logout";
+        });
 
-app.UseStaticFiles();
-app.UseRouting();
+    // Data
+    builder.Services.AddScoped<IUserRepository>(_ => new UserRepository(connectionString));
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Spot}/{action=Index}/{id?}");
+    // Logic
+    builder.Services.AddScoped<IUserService, UserService>();
+    var app = builder.Build();
 
-app.Run();
+    app.UseStaticFiles();
+    app.UseRouting();
+    app.UseAuthentication();
+    app.UseAuthorization();
+
+
+    app.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Spot}/{action=Index}/{id?}");
+
+    app.Run();
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"FOUT: {ex.Message}");
+    Console.WriteLine(ex.StackTrace);
+    Console.ReadKey();
+}
