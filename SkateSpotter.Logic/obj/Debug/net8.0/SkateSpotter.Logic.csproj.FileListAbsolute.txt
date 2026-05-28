@@ -1,6 +1,7 @@
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\bin\Debug\net8.0\SkateSpotter.Logic.deps.json
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\bin\Debug\net8.0\SkateSpotter.Logic.dll
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\bin\Debug\net8.0\SkateSpotter.Logic.pdb
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\obj\Debug\net8.0\SkateSpotter.Logic.csproj.AssemblyReference.cache
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\obj\Debug\net8.0\SkateSpotter.Logic.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\obj\Debug\net8.0\SkateSpotter.Logic.AssemblyInfoInputs.cache
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\obj\Debug\net8.0\SkateSpotter.Logic.AssemblyInfo.cs
@@ -10,4 +11,3 @@ C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\obj\Debug\net8.0
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\obj\Debug\net8.0\refint\SkateSpotter.Logic.dll
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\obj\Debug\net8.0\SkateSpotter.Logic.pdb
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\obj\Debug\net8.0\ref\SkateSpotter.Logic.dll
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Logic\obj\Debug\net8.0\SkateSpotter.Logic.csproj.AssemblyReference.cache

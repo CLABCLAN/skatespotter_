@@ -1,13 +1,3 @@
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.csproj.AssemblyReference.cache
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.AssemblyInfoInputs.cache
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.AssemblyInfo.cs
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.csproj.CoreCompileInputs.cache
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.RazorAssemblyInfo.cache
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.RazorAssemblyInfo.cs
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.sourcelink.json
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\appsettings.json
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\SkateSpotter.Presentation.staticwebassets.runtime.json
@@ -17,6 +7,7 @@ C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\SkateSpotter.Presentation.runtimeconfig.json
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\SkateSpotter.Presentation.dll
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\SkateSpotter.Presentation.pdb
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\BCrypt-Net-Next.dll
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\Dapper.dll
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\Google.Protobuf.dll
@@ -232,6 +223,16 @@ C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\SkateSpotter.Logic.dll
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\SkateSpotter.Data.pdb
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\SkateSpotter.Logic.pdb
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.csproj.AssemblyReference.cache
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.AssemblyInfoInputs.cache
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.AssemblyInfo.cs
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.RazorAssemblyInfo.cache
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.RazorAssemblyInfo.cs
+C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.sourcelink.json
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -250,4 +251,3 @@ C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.pdb
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\SkateSpotter.Presentation.genruntimeconfig.cache
 C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\obj\Debug\net8.0\ref\SkateSpotter.Presentation.dll
-C:\Users\rrmho\Documents\School\skatespotter\SkateSpotter.Presentation\bin\Debug\net8.0\BCrypt-Net-Next.dll

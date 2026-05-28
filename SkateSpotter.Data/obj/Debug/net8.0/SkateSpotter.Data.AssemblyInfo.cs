@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkateSpotter.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2244f906a805bf598e09f856fa56dcb16fe81b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+172397ec47b878d2fcbde1d4de2c9e667c121715")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkateSpotter.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkateSpotter.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

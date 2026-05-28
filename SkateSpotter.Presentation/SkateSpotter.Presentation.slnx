@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="../SkateSpotter.Data/SkateSpotter.Data.csproj" />
   <Project Path="../SkateSpotter.Logic/SkateSpotter.Logic.csproj" Id="8ca3ae35-2989-4ac8-a8f2-845a91cb4ec9" />
+  <Project Path="../SkateSpotter.Tests/SkateSpotter.Tests.csproj" Id="eff8249a-825a-428d-a3a6-e85bba920846" />
   <Project Path="SkateSpotter.Presentation.csproj" />
 </Solution>

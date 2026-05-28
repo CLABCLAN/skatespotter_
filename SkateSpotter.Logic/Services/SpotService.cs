@@ -21,6 +21,15 @@ namespace SkateSpotter.Logic.Services
             if (string.IsNullOrWhiteSpace(spot.Name))
                 throw new ArgumentException("Naam is verplicht.");
 
+            if (!System.Text.RegularExpressions.Regex.IsMatch(spot.Name, @"^[a-zA-Z0-9\s]+$") || spot.Name.Length > 20)
+                throw new ArgumentException("Ongeldige naam: geen speciale tekens en maximaal 20 tekens.");
+
+            if (spot.Latitude == 0 && spot.Longitude == 0)
+                throw new ArgumentException("Locatie ontbreekt.");
+
+            if (spot.Latitude < -90 || spot.Latitude > 90 || spot.Longitude < -180 || spot.Longitude > 180)
+                throw new ArgumentException("Ongeldige locatie.");
+
             _spotRepository.Create(spot);
         }
     }
